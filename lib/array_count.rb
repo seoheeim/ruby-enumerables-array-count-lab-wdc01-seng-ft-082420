@@ -1,6 +1,10 @@
 def count_strings(array)
   # Return the total number of strings in the provided array using the count enumerable
-  array.count.is_a? (String)
+  string = 0 
+  While [array.count.is_a?(String) do
+    string += 1 
+  ]
+  
 end
 
 def count_empty_strings(array)
